@@ -1,3 +1,4 @@
-for i in range(10000):
-    f=i**3
-    c=f-i
+i = 0
+while(i<1000000):
+    i+=1
+    x=i**2
