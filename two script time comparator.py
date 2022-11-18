@@ -1,7 +1,7 @@
 import os
 
 first ="import os\nimport time\nst= time.time()\n"
-last ="tt = time.time() - st\nprint('time of execution of this code is : ', tt)"
+last ="\ntt = time.time() - st\nprint('time of execution of this code is : ', tt)"
 
 
 
@@ -68,7 +68,5 @@ if float(Lines[0])<float(Lines[1]):
 elif float(Lines[0])>float(Lines[1]):
     print(f"{scripttwo} is better than {scriptone}")
 
-
-
-
-
+else:
+    print(f"{scripttwo} equal {scriptone}")
